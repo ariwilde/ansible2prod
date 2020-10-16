@@ -8,7 +8,7 @@
   tasks:
     - name: Ver los facts
       debug:
-        var: ansible_facts
+       var: ansible_facts
 
     - name: Install apache
       yum:
